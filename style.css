@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+#banner {
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+    width: 50vw;
+    height: 50vh;
+    background: rgba(256, 256, 256, 0.8);
+    z-index: 2;
+    border-radius: 30px;
+    box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Card Styles*/
+
+#songTitle {
+    position: relative;
+    top: 6.25vh;
+    transform: translateY(-50%);
+}
+
+#bandTitle {
+    position: relative;
+    top: 13vh;
+    transform: translateY(-50%);
+}
+
+#interactionBar {
+    position: relative;
+    top: 25vh;
+    transform: translateY(-50%);
+    height: 12.5vh;
+}
+
+#websiteLink {
+    position: relative;
+    top: 31.25vh;
+    transform: translateY(-50%);
+}
