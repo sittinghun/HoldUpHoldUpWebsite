@@ -1,0 +1,21 @@
+<svg id="Pause" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <title>downloadButton</title>
+  <path class="cls-1" d="M500,120a378.75,378.75,0,1,1-147.907,29.854A377.6,377.6,0,0,1,500,120m0-20c-220.914,0-400,179.086-400,400S279.086,900,500,900,900,720.914,900,500,720.914,100,500,100Z" transform="translate(-100 -100)"/>
+  <line class="cls-2" x1="600" y1="600" x2="200" y2="600"/>
+  <polyline class="cls-2" points="400 140 400 400 600 400 400 600 200 400 320 400"/>
+</svg>

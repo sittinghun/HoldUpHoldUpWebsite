@@ -11,14 +11,18 @@
 </head>
 
 <body>
+    <div id='background'></div>
     <div id="banner">
         <p id='songTitle'>Forbidden Greens</p>
         <p id='bandTitle'>by Chaand Soorij (feat. Chud)</p>
 
         <div id='interactionBar'>
-            <div id='play'></div>
-            <div id='download'></div>
-            <audio controls autoplay>
+            <div class='button' id='play'><img src="buttons/playButton.svg"></div>
+            <div class='button' id='pause'><img src="buttons/pauseButton.svg"></div>
+            <a href="song/ForbiddenGreens.mp3" download>
+                <div class='button' id='download'><img src="buttons/downloadButton.svg"></div>
+            </a>
+            <audio id='forbiddenGreens' loop>
                 <source src="/song/ForbiddenGreens.mp3" type="audio/mpeg">
             </audio>
         </div>
