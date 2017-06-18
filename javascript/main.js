@@ -1,8 +1,6 @@
 $(document).ready(function () {
 
-    $(window).resize(function () {
-        location.reload();
-    })
+    //The Play and Pause Buttons
 
     $('#pause').hide();
 
@@ -20,4 +18,9 @@ $(document).ready(function () {
         song.pause();
     });
 
+    //Responsive Canvas for p5
+
+    $(window).resize(function () {
+        location.reload();
+    })
 });
