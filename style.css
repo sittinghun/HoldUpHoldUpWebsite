@@ -62,7 +62,7 @@ canvas {
     padding: 10px;
     font-family: Fugaz One;
     font-size: 80px;
-    color: rgb(255, 102, 102);
+    color: rgb(76, 212, 175);
 }
 
 #bandTitle {
@@ -87,7 +87,7 @@ canvas {
     min-height: 50px;
     height: 5vw;
     margin: 10px;
-    background-color: rgb(255, 102, 102);
+    background-color: rgb(76, 212, 175);
     border-radius: 100vw;
     padding: 10px;
 }
